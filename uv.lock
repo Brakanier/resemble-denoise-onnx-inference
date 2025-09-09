@@ -632,7 +632,7 @@ wheels = [
 [[package]]
 name = "resemble-denoise-onnx-inference"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "." }
 dependencies = [
     { name = "librosa" },
     { name = "numpy" },
