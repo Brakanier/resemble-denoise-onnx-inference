@@ -9,6 +9,13 @@ Resemble released a nice open speech enhancer model. It is in 2 parts, denoiser 
 All PyTorch dependencies are removed. Allows for leaner distribution.
 
 
+## Acknowledgments
+
+Special thanks to:
+- **Resemble AI** for releasing the original [resemble-enhance](https://github.com/resemble-ai/resemble-enhance) model
+- **[skeskinen](https://github.com/skeskinen)** for the original ONNX conversion and implementation at [resemble-denoise-onnx-inference](https://github.com/skeskinen/resemble-denoise-onnx-inference)
+
+
 Installation
 ===
 This project has been tested on Python 3.13.
