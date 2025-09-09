@@ -1,0 +1,54 @@
+{
+    "folders": [
+        {
+            "name": "resemble-denoise-onnx-inference",
+            "path": "."
+        }
+    ],
+    "settings": {
+      "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+      "python.defaultInterpreterPath": "${workspaceFolder}/.venv",
+      "python.autoComplete.extraPaths": [
+        "${workspaceFolder}"
+      ],
+      "cursorpyright.analysis.extraPaths": [
+        "${workspaceFolder}"
+      ],
+      "cursorpyright.analysis.autoImportCompletions": true,
+      "cursorpyright.analysis.autoSearchPaths": true,
+      "cursorpyright.analysis.diagnosticMode": "workspace",
+      "ruff.path": [
+        "${workspaceFolder}/.venv/bin/ruff"
+      ],
+      "ruff.configuration": "${workspaceFolder}/pyproject.toml",
+      "ruff.nativeServer": "auto",
+      "ruff.enable": true,
+      "ruff.lint.enable": true,
+      "ruff.importStrategy": "fromEnvironment",
+      // Auto-format imports and fix all issues on save
+      "editor.formatOnSave": true,
+      "[python]": {
+        "editor.defaultFormatter": "charliermarsh.ruff",
+        "editor.codeActionsOnSave": {
+          "source.sortImports": "explicit",
+          "source.fixAll": "explicit"
+        }
+      },
+
+      "files.trimTrailingWhitespace": true,
+      "files.insertFinalNewline": true,
+      "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/__pycache__": true,
+        "**/.pytest_cache": true,
+        "**/.mypy_cache": true,
+        "**/.ruff_cache": true
+      },
+    }
+}
+
+  
