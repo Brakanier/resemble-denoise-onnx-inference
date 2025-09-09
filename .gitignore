@@ -217,3 +217,5 @@ __marimo__/
 
 # wav
 *.wav
+
+.python-version
